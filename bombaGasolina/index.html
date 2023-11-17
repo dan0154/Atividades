@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de posto de gasolina</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <script src="./main.js"></script>
+    
+
+    <section class="combustiveis">
+        <h1>Selecione o combustível</h1>
+        <button class="etanol" onclick="defineValor(5.0)">Etanol</button>
+        <button class="gasolina" onclick="defineValor(5.82)">Gasolina</button>
+        <button class="diesel" onclick="defineValor(6.24)">Diesel</button>
+        <button class="gnv" onclick="defineValor(4.19)">GNV</button>
+        <h2>Selecione a quantidade</h2>
+        <input id="litros" type="number" placeholder="Litros">
+        <section class="bordasBomba">
+            <p>Litros</p>
+            <p id="litros2"></p>
+            <p>Preço por litro</p>
+            <p id="precoPorLitro"></p>
+            <p>Total a pagar</p>
+            <p id="totalAPagar"></p>
+            <button class="abastecer" onclick="valorFinal()">Abastecer</button>
+        </section>
+    </section>
+    <img class="petrobras-logo-1-pngx" src="https://logodownload.org/wp-content/uploads/2014/05/petrobras-logo-1-png.png">
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+}
+
+.bordasBomba {
+    background-color: #008147;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 90%;
+    left: 14%;
+    margin-top: -265px;
+    border-radius: 20px;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+}
+.gasolina {
+    background-color: #ffcd2b;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.gnv {
+    background-color: #ffcd2b;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.diesel {
+    background-color: #ffcd2b;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.etanol {
+    background-color: #ffcd2b;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+#litros {
+    border-radius: 150px;
+    width: 20%;
+    height: 8%;
+}
+
+.combustiveis{
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+}
+
+.abastecer {
+    background-color: #ffcd2b;
+    position: relative;
+    top: 10%;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.petrobras-logo-1-pngx {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
